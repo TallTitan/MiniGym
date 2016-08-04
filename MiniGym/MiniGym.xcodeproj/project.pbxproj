@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B744F2921D53AD8E00DC2644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B744F2911D53AD8E00DC2644 /* main.m */; };
+		B744F2951D53AD8E00DC2644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B744F2941D53AD8E00DC2644 /* AppDelegate.m */; };
+		B744F29B1D53AD8E00DC2644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B744F2991D53AD8E00DC2644 /* Main.storyboard */; };
+		B744F29D1D53AD8E00DC2644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B744F29C1D53AD8E00DC2644 /* Assets.xcassets */; };
+		B744F2A01D53AD8E00DC2644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B744F29E1D53AD8E00DC2644 /* LaunchScreen.storyboard */; };
+		B744F2A91D53ADFA00DC2644 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B744F2A81D53ADFA00DC2644 /* CollectionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B744F28D1D53AD8E00DC2644 /* MiniGym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniGym.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B744F2911D53AD8E00DC2644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B744F2931D53AD8E00DC2644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B744F2941D53AD8E00DC2644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B744F29A1D53AD8E00DC2644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B744F29C1D53AD8E00DC2644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B744F29F1D53AD8E00DC2644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B744F2A11D53AD8E00DC2644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B744F2A71D53ADFA00DC2644 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		B744F2A81D53ADFA00DC2644 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B744F28A1D53AD8E00DC2644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B744F2841D53AD8E00DC2644 = {
+			isa = PBXGroup;
+			children = (
+				B744F28F1D53AD8E00DC2644 /* MiniGym */,
+				B744F28E1D53AD8E00DC2644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B744F28E1D53AD8E00DC2644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B744F28D1D53AD8E00DC2644 /* MiniGym.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B744F28F1D53AD8E00DC2644 /* MiniGym */ = {
+			isa = PBXGroup;
+			children = (
+				B744F2931D53AD8E00DC2644 /* AppDelegate.h */,
+				B744F2941D53AD8E00DC2644 /* AppDelegate.m */,
+				B744F2991D53AD8E00DC2644 /* Main.storyboard */,
+				B744F29C1D53AD8E00DC2644 /* Assets.xcassets */,
+				B744F29E1D53AD8E00DC2644 /* LaunchScreen.storyboard */,
+				B744F2A11D53AD8E00DC2644 /* Info.plist */,
+				B744F2901D53AD8E00DC2644 /* Supporting Files */,
+				B744F2A71D53ADFA00DC2644 /* CollectionViewController.h */,
+				B744F2A81D53ADFA00DC2644 /* CollectionViewController.m */,
+			);
+			path = MiniGym;
+			sourceTree = "<group>";
+		};
+		B744F2901D53AD8E00DC2644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B744F2911D53AD8E00DC2644 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B744F28C1D53AD8E00DC2644 /* MiniGym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B744F2A41D53AD8E00DC2644 /* Build configuration list for PBXNativeTarget "MiniGym" */;
+			buildPhases = (
+				B744F2891D53AD8E00DC2644 /* Sources */,
+				B744F28A1D53AD8E00DC2644 /* Frameworks */,
+				B744F28B1D53AD8E00DC2644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniGym;
+			productName = MiniGym;
+			productReference = B744F28D1D53AD8E00DC2644 /* MiniGym.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B744F2851D53AD8E00DC2644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = seaschi;
+				TargetAttributes = {
+					B744F28C1D53AD8E00DC2644 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B744F2881D53AD8E00DC2644 /* Build configuration list for PBXProject "MiniGym" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B744F2841D53AD8E00DC2644;
+			productRefGroup = B744F28E1D53AD8E00DC2644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B744F28C1D53AD8E00DC2644 /* MiniGym */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B744F28B1D53AD8E00DC2644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B744F2A01D53AD8E00DC2644 /* LaunchScreen.storyboard in Resources */,
+				B744F29D1D53AD8E00DC2644 /* Assets.xcassets in Resources */,
+				B744F29B1D53AD8E00DC2644 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B744F2891D53AD8E00DC2644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B744F2A91D53ADFA00DC2644 /* CollectionViewController.m in Sources */,
+				B744F2951D53AD8E00DC2644 /* AppDelegate.m in Sources */,
+				B744F2921D53AD8E00DC2644 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B744F2991D53AD8E00DC2644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B744F29A1D53AD8E00DC2644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B744F29E1D53AD8E00DC2644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B744F29F1D53AD8E00DC2644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B744F2A21D53AD8E00DC2644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B744F2A31D53AD8E00DC2644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B744F2A51D53AD8E00DC2644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniGym/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seanschiff.MiniGym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B744F2A61D53AD8E00DC2644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniGym/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seanschiff.MiniGym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B744F2881D53AD8E00DC2644 /* Build configuration list for PBXProject "MiniGym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B744F2A21D53AD8E00DC2644 /* Debug */,
+				B744F2A31D53AD8E00DC2644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B744F2A41D53AD8E00DC2644 /* Build configuration list for PBXNativeTarget "MiniGym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B744F2A51D53AD8E00DC2644 /* Debug */,
+				B744F2A61D53AD8E00DC2644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B744F2851D53AD8E00DC2644 /* Project object */;
+}
